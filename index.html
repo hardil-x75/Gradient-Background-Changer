@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gradient Generator</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🎨 Gradient Generator</h1>
+
+    <div class="controls">
+        <input type="color" id="color1" value="#ff7eb3">
+        <input type="color" id="color2" value="#65d6ce">
+    </div>
+
+    <div class="buttons">
+        <button onclick="generateGradient()">Generate</button>
+        <button onclick="randomGradient()">Random</button>
+        <button onclick="copyCSS()">Copy CSS</button>
+    </div>
+
+    <p id="cssCode">background: linear-gradient(to right, #ff7eb3, #65d6ce);</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

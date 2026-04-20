@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+    background: linear-gradient(to right, #ff7eb3, #65d6ce);
+}
+
+/* Glass Card */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    width: 350px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+input[type="color"] {
+    width: 70px;
+    height: 50px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.buttons button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+button:nth-child(1) {
+    background: #00c9ff;
+    color: white;
+}
+
+button:nth-child(2) {
+    background: #ff6a00;
+    color: white;
+}
+
+button:nth-child(3) {
+    background: #00ff95;
+    color: black;
+}
+
+#cssCode {
+    margin-top: 20px;
+    font-size: 14px;
+    word-break: break-all;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
